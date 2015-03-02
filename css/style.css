@@ -1,0 +1,95 @@
+@import url('design.min.css');
+@import url('icons.min.css');
+@import url('component.css');
+
+@font-face {
+    font-family: 'Slabo27';
+    src: url('../fonts/slabo/Slabo27pxRegular.eot');
+    src: url('../fonts/slabo/Slabo27pxRegular.eot') format('embedded-opentype'),
+         url('../fonts/slabo/Slabo27pxRegular.woff2') format('woff2'),
+         url('../fonts/slabo/Slabo27pxRegular.woff') format('woff'),
+         url('../fonts/slabo/Slabo27pxRegular.ttf') format('truetype'),
+         url('../fonts/slabo/Slabo27pxRegular.svg#Slabo27pxRegular') format('svg');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular.eot');
+    src: url('../fonts/opensans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans/OpenSans-Regular.svg#Open Sans') format('svg'),
+    url('../fonts/opensans/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SansitaOne';
+    src: url('../fonts/sansitaone/SansitaOne.eot');
+    src: url('../fonts/sansitaone/SansitaOne.eot') format('embedded-opentype'),
+         url('../fonts/sansitaone/SansitaOne.woff2') format('woff2'),
+         url('../fonts/sansitaone/SansitaOne.woff') format('woff'),
+         url('../fonts/sansitaone/SansitaOne.ttf') format('truetype'),
+         url('../fonts/sansitaone/SansitaOne.svg#SansitaOne') format('svg');
+}
+body {
+	background: #fff;
+	font-family: 'Slabo27', Georgia, Arial, Sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', Arial, Tahoma, Serif;
+}
+
+a {
+	text-decoration: none;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo a:hover {
+    color: #717171;
+}
+.logo {
+    color: #fff;
+    font-family: 'SansitaOne', 'Slabo27', Georgia, Arial, Sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-left: 50px;   
+}
+.logo span {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #707173;
+}
+.main-menu li {
+	display: inline;
+	list-style: none;
+}
+a.fa:before{
+	margin-right: 10px;
+}
+
+/** Advertisement */
+.adtop:before {
+    color: #666666;
+    content: "Advertisement";
+    display: block;
+    font-family: arial;
+    font-size: 0.75rem;
+    margin: 0 auto;
+    padding: 0 2px 2px;
+    text-align: center;
+}    
+.adtop {
+	background-color: #000;
+	text-align: center;
+}
+
+/* Adgoogle */
+.adslot_1 { display:inline-block; width: 320px; height: 50px; }
+@media (max-width: 400px) { .adslot_1 { display: none; } }
+@media (min-width:500px) { .adslot_1 { width: 468px; height: 60px; } }
+@media (min-width:800px) { .adslot_1 { width: 728px; height: 90px; } }	
