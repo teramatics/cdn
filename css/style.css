@@ -1,3 +1,7 @@
+@import url('//cdn.rawgit.com/teramatics/cdn/master/css/design.min.css');
+@import url('//cdn.rawgit.com/teramatics/cdn/master/css/icons.min.css');
+@import url('//cdn.rawgit.com/teramatics/cdn/master/css/component.css');
+
 @font-face {
     font-family: 'Slabo27';
     src: url('../fonts/slabo/Slabo27pxRegular.eot');
