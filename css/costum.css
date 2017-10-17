@@ -1,38 +1,8 @@
-.select2-container {
-    width: 100% !important;
-}
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type="number"] {
-    -moz-appearance: textfield;
-}
-.form-control {
-    line-height: 1.4;
-}
-.sidebar-menu > li .label, .sidebar-menu > li .badge {
-    margin-right: 5px;
-    padding: 0 6px;
-}
-h3.box-title span {
-	font-size: 12px;
-	color: yellow;
+.navbar-fixed-top .btn.pull-left, .navbar-fixed-top .btn.pull-left:hover {
+    margin-left: -5px;
 }
 
-.biru {
-    color: #2b82df;
-    text-shadow: 0px 1px 1px #000;
-}   
-.ungu {
-    color: #d30ed6;
-    text-shadow: 0px 1px 1px #000;
+.navbar-fixed-top .btn.navbar-right {
+	float: right;
+	margin-right: 0;
 }
-.putih {
-    color: #fff;
-    text-shadow: 0px 1px 1px #000;
-}  
-.main-header .sidebar-toggle {
-    padding: 5px 15px;
-}    
